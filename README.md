@@ -1,1 +1,27 @@
-生城市
+﻿生成式作業10 
+
+資料來源：NASA Science（https://science.nasa.gov/）
+
+本作品為非官方教育用途，教學內容經重新整理，圖片依各素材的使用規範標示來源。
+
+## 教學型 HTML 簡報
+
+使用瀏覽器直接開啟 [slides/index.html](slides/index.html)，不需安裝套件或啟動伺服器。簡報可離線閱讀；開啟 NASA Science 參考網站時需要網路。展示只需 `slides/index.html`、`slides/style.css` 與 `slides/app.js`。
+
+簡報依確認後的 [逐頁文案](slides/copy.md) 組裝，共 23 頁，包含獨立封面、封底、行星順序、距離、自轉公轉、分類、八大行星、環境比較、理解檢核及重點回顧。保留完整解說與粗體重點，封底前的「參考資料」頁只顯示「資料來源：NASA Science（https://science.nasa.gov/）」。詳細檔案與頁碼引用保留於 Wiki。
+
+- 點選「上一頁」「下一頁」，或使用鍵盤左右鍵切換。
+- 上方選單可直接跳頁，Home 與 End 可到首頁及末頁。
+- 理解檢核頁可展開參考答案與理由；瀏覽器支援時可使用全螢幕按鈕。
+- 較長的頁面可在內容區垂直捲動；比較表可橫向捲動，底部切頁按鈕持續可用。列印樣式包含全部頁面。
+- 網址中的 `#頁碼` 可定位至指定頁，例如 `index.html#5`。
+
+本版沒有外部圖片、生成圖片或外部字型，不使用來源有疑義的數字補足內容。已知資料限制見 [來源疑義](wiki/issues.md)。
+
+## 本地檢查
+
+修改 `slides/copy.md` 後，執行 `node slides/build.cjs` 重新產生 HTML，不需安裝套件。建置程式只轉換已確認的文案，不新增知識。
+
+`node --check slides/app.js` 檢查 JavaScript 語法。`node slides/check.cjs` 核對 HTML 與文案同步、正文文字保留、來源集中封底前一頁、本地連結及簡化 DOM 下的切頁邏輯。此檢查不等同實際瀏覽器驗證。
+
+
