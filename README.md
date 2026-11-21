@@ -1,6 +1,6 @@
 ﻿生成式作業10 
 
-資料來源：NASA Science（https://science.nasa.gov/）
+資料來源：NASA Science（ https://science.nasa.gov/ ）
 
 本作品為非官方教育用途，教學內容經重新整理，圖片依各素材的使用規範標示來源。
 
