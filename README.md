@@ -1,4 +1,4 @@
-﻿生成式作業10 
+﻿生成式作業10 :  https://y1203t.github.io/week10_homework/#1 
 
 資料來源：NASA Science（ https://science.nasa.gov/ ）
 
